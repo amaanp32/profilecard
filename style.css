@@ -1,0 +1,56 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    
+}
+body{
+    background-color: #F9F6EE;
+}
+h2{
+    
+    text-align: center;
+    
+}
+.main{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: #F9DC5C;
+    
+}
+@media only screen and (max-width: 600px){
+    
+}
+.social{
+    
+    padding: 10px 0px 10px 0px;
+}
+ a{
+    color: black;
+    padding-left: 10px;
+    
+    
+}
+button{
+    font-size: 1.2em;
+    max-width: 300px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    transition: background-color 1s;
+    
+} 
+  button:hover {
+    background-color: rgb(56, 51, 51);
+  }
+  
+  button:focus,
+  button:active {
+    background-color: black;
+    transition: none;
+  }
